@@ -1,0 +1,460 @@
+
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FreedomPop | Tarifas IFT</title>
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dish Celular</title>
+
+  <link rel="stylesheet" href="main.css" />
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+  <script src="https://kit.fontawesome.com/987edafa85.js" crossorigin="anonymous"></script>
+  <link href="http://db.onlinewebfonts.com/c/0fecedcc2f33a0880b3f56b9290da4d5?family=Akzidenz+Grotesk+BE+Bold"
+    rel="stylesheet" type="text/css" />
+  <link href="http://127.0.0.1:5503/fonts/Berthold-akzidenz-grotesk-be-regular.ttf">
+  <script src="https://d58ohtx80p2sd.cloudfront.net/egov2/js/scriptsv2.js"></script>
+  <script src="https://d58ohtx80p2sd.cloudfront.net/egov2/js/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@1.5.4/src/loadingoverlay.min.js">
+  </script>
+
+  <script src="https://d1pt5ohyflo74l.cloudfront.net/js/constants.js"></script>
+  <script src="https://d1pt5ohyflo74l.cloudfront.net/js/utils.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.0.7/sweetalert2.all.min.js"></script>
+
+  <script src="https://unpkg.com/vue"></script>
+  <script src="https://unpkg.com/vueperslides"></script>
+  <link href="https://unpkg.com/vueperslides/dist/vueperslides.css" rel="stylesheet" />
+
+  <script>(function (d) { var s = d.createElement("script"); s.setAttribute("data-account", "k3LFlBnoHW"); s.setAttribute("src", "https://cdn.userway.org/widget.js"); (d.body || d.head).appendChild(s); })(document)</script>
+  <noscript>Please ensure Javascript is enabled for purposes of <a href="https://userway.org">website
+      accessibility</a></noscript>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P9FTRST');</script>
+  <!-- End Google Tag Manager -->
+  
+  
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9FTRST"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  
+  <style>
+    .TyCM {
+      font-size: 0.6rem;
+    }
+  </style>
+
+</head>
+
+
+<body>
+  <div class="w-full text-center font-sans-serif sticky top-0 z-50 bg-blue-100">
+    <a class="text-white text-base md:text-xl lg:text-2xl py-2" href="tel:5555123123">
+      CONTRATA AL <strong class="">55 55 123 123</strong>
+    </a>
+  </div>
+  <header x-data="{ mobileMenuOpen : false }" class="
+          font-serif
+          text-sm
+          md:text-xl
+          flex flex-wrap
+          z-10
+          md:z-0
+          flex-row
+          justify-between
+          md:items-center md:space-x-4
+          bg-white
+          py-6
+          px-6
+          relative
+        ">
+    <a href="index.html" class="block">
+      <img class="h-8 md:h-8 lg:h-12 " src="img/LOGOfpop.svg" alt="freedompop Logo" title="" />
+    </a>
+    <button @click="mobileMenuOpen = !mobileMenuOpen" class="inline-block sm:hidden w-8 h-8 bg-white text-gray-600 p-1">
+      <svg fill="currentColor" viewBox="0 0 20 20" xmlns="">
+        <path fill-rule="evenodd"
+          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+          clip-rule="evenodd"></path>
+      </svg>
+    </button>
+    <nav class="
+            absolute
+            flex
+            items-center
+            md:relative
+            top-16
+            left-0
+            md:top-0
+            z-20
+            md:flex
+            flex-col
+            md:flex-row md:space-x-6
+            w-full
+            md:w-auto
+            bg-white
+            shadow-md
+            rounded-lg
+            md:rounded-none md:shadow-none md:bg-transparent
+            p-6
+            pt-0
+            md:p-0
+          " :class="{ 'flex' : mobileMenuOpen , 'hidden' : !mobileMenuOpen}" @click.away="mobileMenuOpen = false">
+      <div class="options-menu flex flex-col md:flex-row self-end">
+        <a href="index.html"
+          class="text-sm md:text-xs lg:text-md xl:text-xl text-blue-100 hover:underline pr-5">Inicio</a>
+        <a href="promociones.html"
+          class="text-sm md:text-xs lg:text-md xl:text-xl text-blue-100 hover:underline pr-5">Promociones</a>
+        <a href="ayuda.html"
+          class="text-sm md:text-xs lg:text-md xl:text-xl text-blue-100 hover:underline pr-5">Ayuda</a>
+        <a href="lugares-pago.html"
+          class="text-sm md:text-xs lg:text-md xl:text-xl text-blue-100 hover:underline pr-5">Lugares de pago</a>
+        <a href="contacto.html"
+          class="text-sm md:text-xs lg:text-md xl:text-xl text-blue-100 hover:underline md:hidden block">Contacto</a>
+      </div>
+      <div class=" flex-col justify-center hidden md:block">
+        <img class="w-8 md:w-5 lg:w-7 2xl:w-6 mx-auto" src="img/contacto.svg" alt="" />
+        <a href="contacto.html" class="text-sm md:text-xs lg:text-md  xl:text-xl text-blue-100 hover:underline">
+          Contacto
+        </a>
+      </div>
+    </nav>
+  </header>
+
+
+  <div class="bg-fondogris py-12 d-flex justify-content-center">
+    <div class="row w-100 d-flex justify-content-center">
+  
+      <div class="col-12 col-md-10 col-lg-8 px-4">
+  
+        <h1 style="font-weight: 600; font-size: 1.2rem;">
+          Aviso Importante sobre la Vinculación de Líneas Telefónicas Móviles.
+        </h1>
+        <br>
+  
+        <p style="font-size: 1.2rem;">
+          En cumplimiento de lo dispuesto por los Lineamientos para la Identificación de Líneas Telefónicas 
+          Móviles (en lo sucesivo “los Lineamientos”), publicados por la Comisión Reguladora de 
+          Telecomunicaciones en el Diario Oficial de la Federación el 9 de diciembre de 2025; Freedompop 
+          México, S.A. de C.V. en su carácter de concesionario y prestador del servicio de telefonía, informa de 
+          manera clara, accesible y oportuna a todas las personas Titulares y/o Usuarias sobre los requisitos y 
+          modalidades para realizar:
+        </p>
+        <br>
+  
+        <ul style="padding-left: 20px; font-size: 1.2rem; list-style: disc;">
+          <li>La vinculación de Líneas Telefónicas Móviles,</li>
+          <li>La desvinculación de Líneas Telefónicas Móviles, y</li>
+          <li>La consulta de Líneas Telefónicas Móviles Vinculadas.</li>
+        </ul>
+        <br>
+  
+        <p style="font-size: 1.2rem;">
+          El propósito de esta obligación de difusión tiene por objeto asegurar que todas las personas usuarias 
+          conozcan los requisitos, modalidades, plazos y mecanismos aplicables para la adecuada vinculación y 
+          gestión de sus líneas telefónicas móviles.
+        </p>
+        <br>
+  
+        <p style="font-size: 1.2rem;">
+          Esta concesionaria pone esta información a disposición del público en general a través de sus sitios 
+          web y centro de atención. Además, mantiene abiertos sus canales de atención para resolver dudas y 
+          brindar acompañamiento durante cualquiera de los procesos mencionados.
+        </p>
+        <br>
+  
+        <h2 style="font-weight: 600; font-size: 1.2rem;">¿Qué es la Vinculación de una Línea Telefónica Móvil?</h2>
+        <br>
+  
+        <p style="font-size: 1.2rem;">
+          La Vinculación es el procedimiento (ya sea presencial en nuestro Centro de Atención o remoto a través 
+          de la Plataforma de Gestión), mediante el cual una Línea Telefónica Móvil se asocia formalmente a una 
+          persona Titular y, en su caso, también a un Usuario, de conformidad con los mecanismos de 
+          identificación y validación establecidos en los Lineamientos.
+        </p>
+        <br>
+        <p style="font-size: 1.2rem;">
+          Este proceso constituye un requisito indispensable para que la Línea Telefónica Móvil se mantenga 
+          Habilitada, es decir, con capacidad para utilizar los servicios, beneficios y funcionalidades asociados al 
+          plan o paquete contratado.
+        </p>
+        <br>
+        <p style="font-size: 1.2rem;">
+          Únicamente las líneas que cumplan con este proceso de vinculación podrán utilizar la totalidad de los 
+          servicios ofrecidos, incluyendo voz, datos y SMS y demás beneficios del prestador.
+        </p>
+        <br>
+  
+        <p style="font-weight: 600; font-size: 1.2rem;">Para llevar a cabo la Vinculación en forma presencial:</p>
+        <ul style="padding-left: 20px; font-size: 1.2rem; list-style: disc;">
+          <li>La persona Titular y/o Usuaria debe proporcionar una <b>Identificación Oficial vigente.</b></li>
+          <li>La identificación será verificada mediante los procesos de Validación de Identidad establecidos 
+              en los Lineamientos, incluyendo la consulta a fuentes confiables a cargo de autoridades 
+              competentes.</li>
+        </ul>
+        <br>
+  
+        <p style="font-weight: 600; font-size: 1.2rem;">La Vinculación vía remota requerirá:</p>
+        <ul style="padding-left: 20px; font-size: 1.2rem; list-style: disc;">
+          <li>La persona Titular y/o Usuaria debe proporcionar una <b>Identificación Oficial vigente.</b></li>
+          <li>La identificación será verificada mediante los procesos de Validación de Identidad establecidos 
+              en los Lineamientos, incluyendo la consulta a fuentes confiables a cargo de autoridades 
+              competentes.</li>
+          <li>La realización de una <b>Prueba de Vida.</b></li>
+          <li>La captura de ciertos elementos necesarios para confirmar que la persona que realiza el trámite 
+              coincide con la titular de la Identificación Oficial presentada.</li>
+        </ul>
+        <br>
+  
+        <p style="font-weight: 600; font-size: 1.2rem;">En caso de que se efectúe la Vinculación por personas morales, deberán presentar:</p>
+        <ul style="padding-left: 20px; font-size: 1.2rem; list-style: disc;">
+          <li>Documento que contenga la razón social y el RFC de la persona moral.</li>
+          <li>Identificación oficial vigente de la persona representante legal.</li>
+          <li>Documento que acredite la personalidad como representante legal.</li>
+        </ul>
+        <br>
+  
+        <p style="font-weight: 600; font-size: 1.2rem;">Para la Validación de identidad de personas físicas de nacionalidad extranjera, se deberá presentar:</p>
+        <ul style="padding-left: 20px; font-size: 1.2rem; list-style: disc;">
+          <li>Pasaporte, o</li>
+          <li>CURP temporal para extranjeros</li>
+        </ul>
+        <br>
+  
+        <p style="font-size: 1.2rem;">
+          El proceso de Vinculación debe completarse para evitar que la línea sea Deshabilitada. Una vez 
+          concluido satisfactoriamente, se generará un folio con fecha y hora que acredita la Vinculación de la 
+          Línea Telefónica Móvil.
+        </p>
+        <br>
+  
+        <h2 style="font-weight: 600; font-size: 1.2rem;">¿Qué es la Desvinculación de la Línea Telefónica Móvil?</h2>
+        <br>
+  
+        <p style="font-size: 1.2rem;">
+          La Desvinculación es el procedimiento (ya sea presencial en nuestro Centro de Atención o remoto a 
+          través de la Plataforma de Gestión), mediante el cual una Línea Telefónica Móvil deja de estar asociada 
+          a la persona Titular y/o al Usuario previamente registrado, conforme a los procesos y requisitos 
+          establecidos en los Lineamientos. 
+        </p>
+        <br>
+        <p style="font-size: 1.2rem;">Existen dos supuestos, cada uno con efectos específicos:</p>
+        <br>
+        <ol style="padding-left: 20px; font-size: 1.2rem;">
+          <li>
+           1 <b>La Desvinculación del Titular</b> tendrá como efecto que la Línea Telefónica Móvil únicamente 
+            pueda ser utilizada para recibir mensajes de emergencia a través del protocolo de alerta común, 
+            realizar llamadas a los Números de Emergencia y de Atención Ciudadana, así como al Sistema 
+            de Atención de su Proveedor del Servicio de Telefonía Móvil, durante su Ciclo de Vida.
+          </li>
+          <br>
+          <li>
+            2 <b>La Desvinculación del Usuario</b> únicamente disocia a éste de la Línea Telefónica Móvil, la cual 
+            continuará habilitada vinculada al Titular correspondiente.
+          </li>
+        </ol>
+        <br>
+  
+        <p style="font-weight: 600; font-size: 1.2rem;">Para la Desvinculación presencial:</p>
+        <ul style="padding-left: 20px; font-size: 1.2rem; list-style: disc;">
+          <li>El Titular y/o Usuario debe acudir al centro de atención del proveedor del servicio de telefonía 
+              móvil, y presentar <span style="font-weight: bold;">Identificación Oficial vigente.</span></li>
+          <li>En caso de fallecimiento del Titular o Usuario, la Desvinculación solo podrá realizarse de forma 
+              presencial mediante la presentación del acta de defunción.</li>
+        </ul>
+        <br>
+  
+        <p style="font-weight: 600; font-size: 1.2rem;">Para la Desvinculación remota:</p>
+        <ul style="padding-left: 20px; font-size: 1.2rem; list-style: disc;">
+          <li>La persona Titular y/o Usuaria debe proporcionar una <span style="font-weight: bold;">Identificación Oficial vigente.</span></li>
+          <li>La identificación será verificada mediante los procesos de Validación de Identidad establecidos 
+              en los Lineamientos, incluyendo la consulta a fuentes confiables a cargo de autoridades 
+              competentes.</li>
+          <li>La realización de una Prueba de Vida.</li>
+          <li>La captura de ciertos elementos necesarios para confirmar que la persona que realiza el trámite 
+              coincide con la titular de la Identificación Oficial presentada.</li>
+        </ul>
+        <br>
+  
+        <p style="font-size: 1.2rem;">
+          Una vez concluido el proceso satisfactoriamente, se genera un folio identificador único para cada 
+          Desvinculación, incluyendo la fecha y hora en que se realizó.
+        </p>
+        <br>
+  
+        <h2 style="font-weight: 600; font-size: 1.2rem;">Consulta de Líneas Vinculadas</h2>
+        <br>
+  
+        <p style="font-size: 1.2rem;">
+          La Consulta de Líneas Telefónicas Móviles Vinculadas es un mecanismo establecido en los 
+          Lineamientos, cuyo propósito es permitir que las personas Titulares y/o Usuarias verifiquen, de manera 
+          segura, transparente y confiable, cuántas y cuáles Líneas Telefónicas Móviles tienen asociadas a su 
+          CURP o RFC.
+        </p>
+  <br>
+        <p style="font-size: 1.2rem;">
+          En cumplimiento de esta obligación, los Proveedores del Servicio de Telefonía Móvil habilitarán esta 
+          Plataforma de Consulta, mediante el cual cualquier persona podrá confirmar en todo momento el 
+          estado de sus líneas vinculadas. Estas plataformas emplearán mecanismos de autenticación, 
+          incluyendo el uso de CURP o RFC, y medidas de seguridad acordes con las mejores prácticas en materia 
+          de protección de datos personales y ciberseguridad.
+        </p>
+  <br>
+        <p style="font-size: 1.2rem;">
+          Para proteger la privacidad de las personas Titulares y/o Usuarias, la información mostrada será 
+          estrictamente limitada, presentándose únicamente:
+        </p>
+  <br>
+        <ul style="padding-left: 20px; font-size: 1.2rem; list-style: disc;">
+          <li>Los últimos cuatro dígitos de cada Línea Telefónica Móvil vinculada, y</li>
+          <li>El nombre comercial del Proveedor del Servicio de Telefonía Móvil que administra dicha Línea.</li>
+        </ul>
+  <br>
+        <p style="font-size: 1.2rem;">
+          Además, esta Plataforma incluirá el enlace directo hacia la Plataforma de Gestión del Proveedor 
+          correspondiente, para facilitar que la persona pueda, en su caso, llevar a cabo la Desvinculación de 
+          líneas de manera segura.
+        </p>
+  <br>
+        <p style="font-size: 1.2rem;">
+          Este servicio estará disponible las 24 horas del día, los 365 días del año, y ha sido diseñado para 
+          fortalecer la transparencia, prevenir el uso indebido de líneas telefónicas y brindar a todas las personas 
+          usuarias mayor control sobre la gestión de sus servicios móviles.
+        </p>
+        <br>
+  
+        <h2 style="font-weight: 600; font-size: 1.2rem;">Plazos con los que contarán los Titulares para realizar la Vinculación de sus Líneas</h2>
+        <br>
+  
+        <ul style="padding-left: 20px; font-size: 1.2rem; list-style: disc;">
+          <li>
+            Entrada en vigor de lineamientos:<br>
+            o 9 de diciembre de 2025
+          </li>
+          <br>
+          <li>
+            Inicio de la vinculación de líneas nuevas o habilitadas:<br>
+            o A partir del 9 de enero de 2026 los titulares deben vincular sus líneas.
+          </li>
+          <br>
+          <li>
+            Fecha límite para Vinculación de líneas telefónicas móviles: <b>30 de junio de 2026</b>
+          </li>
+        </ul>
+  <br>
+        <p style="font-size: 1.2rem;">
+          Toda Línea Telefónica Móvil que no haya sido Vinculada a una persona Titular a partir del <b>01 de julio de 
+            2026,</b> será Deshabilitada y únicamente podrá utilizarse para:
+        </p>
+  <br>
+        <ul style="padding-left: 20px; font-size: 1.2rem; list-style: disc;">
+          <li>Recibir mensajes del protocolo de alerta común,</li>
+          <li>Realizar llamadas a los Números de Emergencia y de Atención Ciudadana, y</li>
+          <li>Comunicarse con el Sistema de Atención del Proveedor del Servicio de Telefonía Móvil.</li>
+        </ul>
+        <br>
+  
+        <h2 style="font-weight: 600; font-size: 1.2rem;">Compromiso de Información y Atención</h2>
+        <br>
+  
+        <p style="font-size: 1.2rem;">
+          Nos comprometemos a mantener esta información actualizada, accesible y oportuna al público en 
+          general a través de nuestros sitios web y canales de atención.
+        </p>
+  <br>
+        <p style="font-size: 1.2rem;">
+          Consulta más información sobre estos Lineamientos en el Diario Oficial de la Federación en:<br>
+          <a href="https://www.dof.gob.mx/nota_detalle.php?codigo=5775677&fecha=09/12/2025#gsc.tab=0" target="_blank">https://www.dof.gob.mx/nota_detalle.php?codigo=5775677&fecha=09/12/2025#gsc.tab=0</a>
+        </p>
+  
+      </div>
+  
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+
+  <!--FOOTER-->
+  <footer class="footer px-4 mb-24 md:mb-0 md:px-32">
+    <div class="flex flex-col md:flex-row">
+      <div class="col-span-4 md:col-span-3 w-72 md:w-96 p-5">
+        <span class="text-white text-xs place-self-center">Servicio de telefonía proporcionado por</span>
+        <a style="cursor: pointer" onclick="gotoExternal('FP')"><img class="mt-2 w-48" src="img/fp-blanco.svg"
+            alt="logo fp blanco" /></a>
+        <div class="footer-info">
+          <div class="flex grid-cols-2 my-6">
+            <div class="w-12">
+              <img class="" src="img/tel-footer.svg" alt="" />
+            </div>
+            <span class="text-white text-xs md:text-md"><strong>Atención a Clientes</strong> <br />
+              Marca al 55 5610 1010</span>
+          </div>
+          <div class="flex grid-cols-2 my-6">
+            <div class="w-12">
+              <img class="" src="img/tel-footer.svg" alt="" />
+            </div>
+            <span class="text-white text-xs md:text-md"><strong>Ventas </strong> <br />
+              Marca al 55 55 123 123</span>
+          </div>
+          <div class="flex grid-cols-2 my-6">
+            <div class="w-12">
+              <img class="" src="img/ubicacion-footer.svg" alt="" />
+            </div>
+            <span class="text-white text-xs md:text-md">Cobertura a Nivel Nacional</span>
+          </div>
+        </div>
+      </div>
+      <div class="flex w-full mb-12 md:mb-0 md:col-span-3 ">
+        <div class="flex justify-center flex-col">
+          <a href="tarifas_IFT.html" class="text-white underline font-bold text-sm md:text-sm">Tarifas de servicio
+            autorizadas</a>
+          <br />
+          <a href="https://my.freedompop.mx/tarifas" target="_blank" class="text-white underline font-bold text-sm md:text-sm">Formatos Simplificados</a>
+          <br />
+          <a style="cursor: pointer" onclick="gotoExternal('FPfraudes')"
+            class="text-white underline font-bold text-sm md:text-sm">Política de prevención y detección de
+            fraude</a>
+
+            <br />
+            <a href="https://www.freedompop.mx/roboextravio" class="text-white underline font-bold text-sm md:text-sm" target="_blank">Reporte por robo o extravío</a>
+            <br />
+            <a href="terminos_y_condiciones_mvshub.html" class="text-white underline font-bold text-sm md:text-sm" target="_blank">Términos y condiciones de mvshub</a>
+            <br />
+            <a href="legales.html" class="text-white underline font-bold text-sm md:text-sm" target="_blank">Legales</a>
+            <br />
+        </div>
+      </div>
+    </div>
+   
+     <!--   <nav class="footer-links page no-padding">
+      <a href="{{tab.url}}" class="{% if tab.tab_type == current_tab %}active{% endif %}">¿Tienes dudas?</a>
+     </nav> -->
+ 
+
+    <span class="text-white  TyCM"></span>
+  </footer>
+
+
+
+
+</body>
+
+</html>
