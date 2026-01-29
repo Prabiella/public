@@ -42,15 +42,11 @@
 <body>
 
 
- <!--  <div class="w-full text-center font-sans-serif sticky top-0 z-50 bg-blue-100">
-    <a class="text-white text-base md:text-xl lg:text-2xl py-2" href="tel:5555123123">
-      CONTRATA AL <strong class="">55 55 123 123</strong>
-    </a>
-  </div> -->
+
 
   <div class="w-full text-center font-sans-serif sticky top-0 z-50 bg-blue-100">
-    <a class="text-white text-base md:text-xl lg:text-2xl py-2" href="tel:55 55123123">
-      CONTRATA AL <strong>55 91 28 58 58</strong>
+    <a class="text-white text-base md:text-xl lg:text-2xl py-2" href="tel:5556101010">
+      CONTRATA AL <strong>55 5610 1010</strong>
     </a>
   </div>
   <header x-data="{ mobileMenuOpen : false }" class="
@@ -137,10 +133,33 @@
         <div id="pack-1" class=" pack-1 pack-content active bg-fondo1">
           <div class="flex justify-center w-full">
 
-            <!--Prueba de carrusel-->
+                 
+          
+
+            <!--Inicia carrusel desktop-->
             <div class="carousel">
               <div class="carousel-inner">
-                <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+
+                <input class="carousel-open" type="radio" id="carousel-0" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                <div class="carousel-item ">
+                
+                   <a href="vincula_tu_linea.html" target="_blank">
+
+                    
+                     <img  src="img/sliders/banner-0.jpg" alt="AVISO IMPORTANTE A partir del 9 de enero será necesario vincular tu cuenta" />
+                     
+                    
+                    
+                    </a>
+
+                </div>
+
+
+
+
+
+
+                <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" >
                 <div class="carousel-item">
                     <img src="img/sliders/banner-1.jpg" alt="Si ya tienes tu chip, ahora puedes pedir hasta 4 adicionales al tuyo, SIN COSTO" />
                 </div>
@@ -152,17 +171,26 @@
                     <img src="img/sliders/banner_cuatro_chips.jpg" alt="Smartphones Hasta agotar existencias"/>
                   </div>
               
+              
+                <!-- Slide 0 -->
+                <label for="carousel-1" class="carousel-control next control-0">›</label>
+                <label for="carousel-2" class="carousel-control prev control-0">‹</label>
 
-
-
-                <label for="carousel-1" class="carousel-control next control-2">›</label>
+                <!-- Slide 1 -->
                 <label for="carousel-2" class="carousel-control next control-1">›</label>
-                <label for="carousel-2" class="carousel-control prev control-1">‹</label>
+                <label for="carousel-0" class="carousel-control prev control-1">‹</label>
+
+                <!-- Slide 2 -->
+                <label for="carousel-0" class="carousel-control next control-2">›</label>
                 <label for="carousel-1" class="carousel-control prev control-2">‹</label>
 
 
 
+
                 <ol class="carousel-indicators">
+                  <li>
+                    <label for="carousel-0" class="carousel-bullet">•</label>
+                  </li>
                   <li>
                     <label for="carousel-1" class="carousel-bullet">•</label>
                   </li>
@@ -173,21 +201,15 @@
               </div>
             </div>
 
-            <!--Termina prueba de carrusel-->
+            <!--Termina carrusel desktop-->
 
 
 
 
 
 
-
-
-
-
-            <!-- 
-            <img class="hidden sm:block" src="img/sliders/banner-1.jpg" alt="" />
-            <img class="block sm:hidden" src="img/slider movil/425X425_FP_150.jpg" alt="">
-          -->
+       
+         
           </div>
           <!--TRIPLE BOTÓN-->
           <nav class="tabs mb-28  gap-0 md:gap-4 px-0 flex justify-around md:justify-center 
@@ -1485,117 +1507,7 @@
           <div class="pack-mov mb-12 sticky mx-4 md:mx-28">
             <div class="carousel relative z-30">
               <div class="carousel-inner relative overflow-hidden w-full">
-                <!--Slide 1-->
-                <!--<input class="carousel-open" type="radio" id="carousel-minipack1" name="carouselminipack" aria-hidden="true"
-                  hidden="" checked="checked"/>
-                <div class="carousel-item absolute opacity-0">
-                  <div class="grid content-center">
-                    <div class="flex content-center flex-col">
-                      <div class="precio500 precio-content text-center py-8">
-                        <span class="text-white text-md md:text-2xl italic font-bold">PLAN 49</span>
-                        <div class="grid grid-cols-3 items-center">
-                          <span class="text-white text-md lg:text-4xl text-right">$</span><span
-                            class="text-white text-5xl lg:text-6xl font-bold">49</span>
-                        </div>
-                      </div>
-        
-                      <div class="bg-white text-center pt-3 text-gristxt">
-                        <div class="banderas pb-6 flex flex-col items-center">
-                          <span class="text-sm md:text-xl lg:text-base font-bold">300 MINUTOS Y 300 SMS</span>
-                          <img class="p-2" src="img/Banderas-1.png" alt="" />
-                        </div>
-                        <div class="m-6 flex flex-col">
-                          <span class="text-4xl font-bold">600 MB</span>
-                          <span class="text-md font-bold">PARA NAVEGAR</span>
-                          <span class="text-4xl font-bold pt-2 pb-3"> + </span>
-                          <span class="text-4xl font-bold">1 GB</span>
-                          <span class="text-md font-bold">PARA REDES SOCIALES</span>
-                        </div>
-                        <div class="m-6 flex flex-col items-center banderas">
-                          <ul class="flex flex-row items-center">
-                            <li class="p-1">
-                              <img src="img/redes-sociales/facebook.svg" alt="facebook">
-                            </li>
-                            <li class="p-1">
-                              <img src="img/redes-sociales/messenger.svg" alt="messenger">
-                            </li>
-                            <li class="p-1">
-                              <img src="img/redes-sociales/twitter.svg" alt="twitter">
-                            </li>
-                          </ul>
-                          <ul class="flex flex-row items-center">
-                            <li class="p-1">
-                              <img src="img/redes-sociales/discord.svg" alt="discord">
-                            </li>
-                            <li class="p-1">
-                              <img src="img/redes-sociales/uber.svg" alt="uber">
-                            </li>
-                          </ul>
-                          <span class="text-gray-500 pt-2">(Para uso sólo en México)</span><br/>
-                        </div>
-                        <div class="m-0 lg:m-5 flex flex-col items-center">
-                          <span class="text-sm md:text-xl lg:text-xs font-bold">REDES SOCIALES ILIMITADAS</span>
-                          <ul class="flex flex-row items-center">
-                            <li class="py-3">
-                              <img src="img/redes-sociales/whatsapp.svg" alt="whatsapp">
-                            </li>
-                          </ul>
-                          <span class="text-gray-500 mb-3">(Para uso sólo en México)</span>
-                        </div>
-                        <div class="bg-blue-100">
-                          <p class="vigencia text-white p-1">
-                            Vigencia: <strong> 1 Mes*</strong>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <label for="carousel-minipack1" class="
-                prev
-                control-1
-                hidden
-                w-10
-                h-10
-                ml-2
-                md:ml-1
-                absolute
-                cursor-pointer
-                text-md text-morado
-                font-bold
-                hover:text-white
-                rounded-full
-                hover:bg-none
-                leading-tight
-                text-center
-                z-10
-                inset-y-0
-                left-0
-                my-auto
-              ">‹</label>
-              <label for="carousel-minipack2" class="
-                next
-                control-1
-                hidden
-                w-10
-                h-10
-                mr-2
-                md:mr-1
-                absolute
-                cursor-pointer
-                text-md text-morado
-                font-bold
-                hover:text-white
-                rounded-full
-                hover:bg-none
-                leading-tight
-                text-center
-                z-10
-                inset-y-0
-                right-0
-                my-auto
-              ">›</label>-->
-
+              
                 <!--Slide 2-->
                <input class="carousel-open" type="radio" id="carousel-minipack2" name="carouselminipack" aria-hidden="true"
                   hidden="" checked="checked"/>
@@ -2963,7 +2875,7 @@
                   <span class="text-white text-md md:text-3xl italic font-bold">PLAN</span>
                   <div class="grid grid-cols-3 items-center">
                     <span class="text-white text-md md:text-4xl text-right">$</span><span
-                      class="text-white text-3xl md:text-6xl font-bold">234</span>
+                      class="text-white text-3xl md:text-6xl font-bold">208</span>
                   </div>
                 </div>
                 <div class="bg-white text-center text-gristxt">
@@ -3050,7 +2962,7 @@
                   <span class="text-white text-md md:text-3xl italic font-bold">PLAN</span>
                   <div class="grid grid-cols-3 items-center">
                     <span class="text-white text-md md:text-4xl text-right">$</span><span
-                      class="text-white text-3xl md:text-6xl font-bold">279</span>
+                      class="text-white text-3xl md:text-6xl font-bold">243</span>
                   </div>
                 </div>
                 <div class="bg-white text-center text-gristxt">
@@ -3125,7 +3037,7 @@
                   <span class="text-white text-md md:text-3xl italic font-bold">PLAN</span>
                   <div class="grid grid-cols-3 items-center">
                     <span class="text-white text-md md:text-4xl text-right">$</span><span
-                      class="text-white text-3xl md:text-6xl font-bold">369</span>
+                      class="text-white text-3xl md:text-6xl font-bold">343</span>
                   </div>
                 </div>
                 <div class="bg-white text-center text-gristxt">
@@ -3209,7 +3121,7 @@
                   <span class="text-white text-md md:text-3xl italic font-bold">PLAN</span>
                   <div class="grid grid-cols-3 items-center">
                     <span class="text-white text-md md:text-4xl text-right">$</span><span
-                      class="text-white text-3xl md:text-6xl font-bold">549</span>
+                      class="text-white text-3xl md:text-6xl font-bold">523</span>
                   </div>
                 </div>
                 <div class="bg-white text-center text-gristxt">
@@ -3309,7 +3221,7 @@
                       <span class="text-white text-3xl italic font-bold">PLAN</span>
                       <div class="grid grid-cols-3 items-center">
                         <span class="text-white text-right text-3xl">$</span><span
-                          class="text-white text-6xl font-bold">234</span>
+                          class="text-white text-6xl font-bold">208</span>
                       </div>
                     </div>
 
@@ -3447,7 +3359,7 @@
                       <span class="text-white text-3xl italic font-bold">PLAN</span>
                       <div class="grid grid-cols-3 items-center">
                         <span class="text-white text-right text-3xl">$</span><span
-                          class="text-white text-6xl font-bold">279</span>
+                          class="text-white text-6xl font-bold">243</span>
                       </div>
                     </div>
                     <div class="bg-white text-center text-gristxt">
@@ -3584,7 +3496,7 @@
                       <span class="text-white text-3xl italic font-bold">PLAN</span>
                       <div class="grid grid-cols-3 items-center">
                         <span class="text-white text-right text-3xl">$</span><span
-                          class="text-white text-6xl font-bold">369</span>
+                          class="text-white text-6xl font-bold">343</span>
                       </div>
                     </div>
                     <div class="bg-white text-center text-gristxt">
@@ -3727,7 +3639,7 @@
                       <span class="text-white text-3xl italic font-bold">PLAN</span>
                       <div class="grid grid-cols-3 items-center">
                         <span class="text-white text-right text-3xl">$</span><span
-                          class="text-white text-6xl font-bold">549</span>
+                          class="text-white text-6xl font-bold">523</span>
                       </div>
                     </div>
                     <div class="bg-white text-center text-gristxt">
@@ -4197,7 +4109,7 @@
                   <div class="bg-morado flex justify-center items-center">
                     <div class="grid grid-cols-3 precio-contentDos mt-12">
                       <span class="text-white text-1xl italic font-bold">PLAN</span>
-                      <span class="text-white text-3xl text-right">$<span class="text-6xl md:text-9xl font-bold">579</span></span>
+                      <span class="text-white text-3xl text-right">$<span class="text-6xl md:text-9xl font-bold">638</span></span>
                     </div>
                   </div>
                   <div class="bg-morado flex justify-center items-center">
@@ -4295,7 +4207,7 @@
                         <div class="banderas grid pt-0 p-4">
                             <img class="place-self-center pt-0 py-5" src="img/dish_logo.svg" alt="dish logo" />
                             <span class="text-sm md:text-3xl lg:text-sm font-bold">CANALES DE TV</span>
-                            <span class="pt-3">Hasta 72 Canales de TV del paquete Básico</span>
+                            <span class="pt-3">Hasta 82 Canales de TV del paquete Básico</span>
                         </div>
                         <!-- Contenido para la segunda columna -->
                      
@@ -4364,8 +4276,8 @@
               </div>
 
               <div class="bg-morado precio-content py-2 text-center justify-center">
-                <a class="text-white text-base md:text-xl lg:text-2xl py-2" href="tel:5555123123">
-                  CONTRATA AL <strong class="">55 91 28 58 58 </strong>
+                <a class="text-white text-base md:text-xl lg:text-2xl py-2" href="tel:5556101010">
+                  CONTRATA AL <strong class="">55 5610 1010 </strong>
                 </a>
               </div>
 
@@ -4573,7 +4485,7 @@
               <img class="" src="img/tel-footer.svg" alt="" />
             </div>
             <span class="text-white text-xs md:text-md"><strong>Ventas </strong> <br />
-              Marca al 55 55 123 123</span>
+              Marca al 55 5610 1010</span>
           </div>
           <div class="flex grid-cols-2 my-6">
             <div class="w-12">
@@ -4599,7 +4511,7 @@
             <br />
             <a href="terminos_y_condiciones_mvshub.html" class="text-white underline font-bold text-sm md:text-sm" target="_blank">Términos y condiciones de mvshub</a>
             <br />
-            <a href="legales.html" class="text-white underline font-bold text-sm md:text-sm" target="_blank">Legales</a>
+            <a href="vincula_tu_linea.html" class="text-white underline font-bold text-sm md:text-sm" target="_blank">Vincula tu línea</a>
             <br />
         </div>
       </div>

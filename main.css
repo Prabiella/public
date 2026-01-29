@@ -2178,7 +2178,7 @@ body {
 .carousel-item {
   transition: opacity 1s ease-in-out;
 }
-
+#carousel-0:checked ~ .control-0,
 #carousel-1:checked ~ .control-1,
 #carousel-2:checked ~ .control-2,
 #carousel-3:checked ~ .control-3 {
